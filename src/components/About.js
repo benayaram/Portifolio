@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Typography, Button } from '@mui/material';
+import React from 'react';
+import { Typography } from '@mui/material';
 // import Sidebar from '../Sidebar/Sidebar'; // Assuming the Sidebar component is in the same directory
 import './About.css'; // Import CSS file for Home component
 import DesktopImage from '../Assects/Code typing.gif'; // Import the SVG file
@@ -29,12 +29,12 @@ const Home = () => {
 
       {/* Right div */}
       <div className="right-content">
-        <img
+        <image
           src={DesktopImage} // Use the imported SVG as the source
           alt="Your Image"
           className="desktop-image"
         />
-        <img
+        <image
           src={mobileLogoURL}
           alt="Your Image"
           className="mobile-image"
